@@ -3,7 +3,7 @@
 .contact {
   width: 980px;
   margin: 0 auto;
-  padding-top: 160px;
+  padding-top: 160px;  
   @media screen and (max-width: 768px) {
     width: 100%;
   }
@@ -22,8 +22,10 @@
     // width: 100%;
     // margin-left: 0;
     position: relative;
-    width: 100%;
-    margin-left: 62px;
+    min-width: 100%;    
+    margin: 0;
+    padding: 0;
+    padding-left: 70px;
 
   }
 }
@@ -36,10 +38,6 @@
   height: 591px;
 
   @media screen and (min-width: 375px) and (max-width: 768px) {
-    // width: 100%;
-    // background-size: 100%;
-    // margin-top: 264px;
-    // margin-left: -19px;
       width: 100%;
       background-size: 100%;
       margin-top: -187px;
@@ -71,18 +69,30 @@
   }
 }
 
+.contact-form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;  
+  position: relative;  
+  margin-bottom: 100px; 
+  @media screen and (max-width: 768px) and (min-width: 375px){
+   justify-content: center;
+} 
+}
+
 .form_contact {
-  position: relative;
-  bottom: -80%;
-  right: -60%;
+  margin-top: -65px;
+  margin-right: 530px;  
   width: 285px;
-  display: block;
-  margin-bottom: 100px;
+  display: block;  
   @media screen and (max-width: 768px) and (min-width: 375px){
     position: relative;
     bottom: 299px;
     right: 0;
+    // width: 100%;
     margin-bottom: -256px;
+    margin-top: 0px;
+    margin-right: 0px; 
 }
 }
 

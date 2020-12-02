@@ -22,8 +22,10 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .contact_main {
     position: relative;
-    width: 100%;
-    margin-left: 62px;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 70px;
   }
 }
 
@@ -66,13 +68,24 @@
   }
 }
 
-.form_contact {
+.contact-form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
   position: relative;
-  bottom: -80%;
-  right: -60%;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 768px) and (min-width: 375px) {
+  .contact-form {
+    justify-content: center;
+  }
+}
+
+.form_contact {
+  margin-top: -65px;
+  margin-right: 530px;
   width: 285px;
   display: block;
-  margin-bottom: 100px;
 }
 @media screen and (max-width: 768px) and (min-width: 375px) {
   .form_contact {
@@ -80,6 +93,8 @@
     bottom: 299px;
     right: 0;
     margin-bottom: -256px;
+    margin-top: 0px;
+    margin-right: 0px;
   }
 }
 

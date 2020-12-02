@@ -85,7 +85,7 @@
     flex-direction: column;
     position: absolute;
     align-items: flex-start;
-    top: 100px;
+    top: 150px;
     right: 0;
     width: 100%;
     color: #000;
@@ -98,6 +98,10 @@
   }
   .mobile-menu_active {
     width: 100%;
+  }
+
+  .ovh {
+    overflow: hidden;
   }
 
   .nav_list {
@@ -115,6 +119,41 @@
 
   .nav_link {
     font-size: 30px;
+  }
+
+  footer table tr {
+    display: flex;
+    flex-direction: column;
+  }
+  footer table tr:nth-child(1) th:nth-child(1) {
+    padding: 20px;
+    order: 1;
+  }
+  footer table tr:nth-child(1) th:nth-child(2) {
+    padding: 20px;
+    order: 1;
+    border-bottom: 1px solid #FFF;
+  }
+  footer table tr:nth-child(1) th:nth-child(3) {
+    padding: 30px;
+    order: 0;
+    border-bottom: 1px solid #FFF;
+  }
+  footer table tr:nth-child(1) th:nth-child(3) .follow {
+    margin-bottom: 0;
+  }
+  footer table tr:nth-child(2) th:nth-child(1) {
+    padding: 20px;
+    order: 2;
+  }
+  footer table tr:nth-child(2) th:nth-child(2) {
+    padding: 20px;
+    order: 0;
+    border-bottom: 1px solid #FFF;
+  }
+  footer table tr:nth-child(2) th:nth-child(3) {
+    padding: 30px;
+    order: 1;
   }
 }
 

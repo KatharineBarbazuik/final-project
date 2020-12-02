@@ -147,25 +147,9 @@ footer table {
   margin: 50px;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 768px) {
-  footer table {
-    text-align: center;
-    width: 100%;
-    border: none;
-    border-collapse: unset;
-    margin: 0 auto;
-    padding: 0;
-  }
-}
 footer table th {
   padding: 50px;
   flex-wrap: wrap;
-}
-@media screen and (max-width: 768px) {
-  footer table th {
-    display: inline;
-    margin: 0;
-  }
 }
 
 .bordercolor {
@@ -208,6 +192,10 @@ footer table th {
 
 .afooter {
   color: #ffffff;
+}
+
+.d-block {
+  display: block !important;
 }
 
 /*# sourceMappingURL=content.css.map */

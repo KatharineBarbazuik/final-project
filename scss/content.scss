@@ -152,22 +152,22 @@ footer {
     margin: 50px;
     flex-wrap: wrap;
 
-    @media screen and (max-width:768px){
-      text-align: center;
-      width: 100%;
-      border: none;
-      border-collapse: unset;
-      margin: 0 auto;
-      padding: 0;
-  }
+  //   @media screen and (max-width:768px){
+  //     text-align: center;
+  //     width: 100%;
+  //     border: none;
+  //     border-collapse: unset;
+  //     margin: 0 auto;
+  //     padding: 0;
+  // }
     th {
       padding: 50px;
       flex-wrap: wrap;
   
-      @media screen and (max-width:768px){
-        display: inline;
-        margin:0;
-    }
+    //   @media screen and (max-width:768px){
+    //     display: inline;
+    //     margin:0;
+    // }
     }
   }
 }
@@ -215,3 +215,8 @@ footer {
 .afooter {
   color: #ffffff;
 }
+
+.d-block {
+  display: block !important;
+}
+

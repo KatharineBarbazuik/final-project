@@ -86,10 +86,11 @@
           flex-direction: column;
           position: absolute;
           align-items: flex-start;
-          top: 100px;
+          top: 150px;
           right: 0;
           width: 100%;
           color: #000;
+        
           .nav_item {
             margin: 0;
             padding-bottom: 20px;
@@ -98,8 +99,12 @@
           }
         }
         &_active {
-          width: 100%;
+          width: 100%;          
         }
+      }
+
+      .ovh {
+        overflow: hidden;
       }
 
     .nav_list{
@@ -160,4 +165,60 @@
       //   transform: translateX(-50%) rotate(45deg);
       //   bottom: calc(50% - 1px);
       // }
+
+
+    //   @media screen and (max-width:768px){
+    //     text-align: center;
+    //     width: 100%;
+    //     border: none;
+    //     border-collapse: unset;
+    //     margin: 0 auto;
+    //     padding: 0;
+    // }
+    footer table {
+      tr {
+        display: flex;
+        flex-direction: column;      
+        &:nth-child(1) {
+          th  {                   
+            &:nth-child(1) {
+              padding: 20px;                         
+              order: 1;                           
+            }
+            &:nth-child(2) { 
+              padding: 20px;               
+              order: 1;              
+              border-bottom: 1px solid #FFF;
+            }
+            &:nth-child(3) {
+              padding: 30px;
+              order: 0;
+              border-bottom: 1px solid #FFF;               
+              .follow {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          th  {                   
+            &:nth-child(1) {
+              padding: 20px;                         
+              order: 2;                           
+            }
+            &:nth-child(2) { 
+              padding: 20px;               
+              order: 0;              
+              border-bottom: 1px solid #FFF;
+            }
+            &:nth-child(3) {
+              padding: 30px;
+              order: 1;         
+            }
+          }
+        }
+     
+      }
+    }
 }

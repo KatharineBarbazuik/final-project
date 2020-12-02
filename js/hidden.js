@@ -1,9 +1,8 @@
-var answer = document.querySelector('.faq_answer');
-var open = document.querySelector('.btntohide');
+var arrows = document.querySelectorAll('.btntohide');
+var answers = document.querySelectorAll('.faq_answer');
 
-answer.style.display = 'none';
-
-open.addEventListener('click', function() {
-  if(answer.style.display == 'none') answer.style.display = 'block';
-  else answer.style.display = 'none';
-});
+arrows.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    answers[i].classList.toggle('d-block')
+  })
+})
