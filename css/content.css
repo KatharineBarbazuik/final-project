@@ -39,6 +39,10 @@ header {
   display: none;
 }
 
+#mobile_menu {
+  display: none;
+}
+
 .nav__toggle {
   display: none;
 }
@@ -74,7 +78,8 @@ header {
   color: #ffffff;
 }
 
-.nav, .navigation {
+.nav,
+.navigation {
   background-color: #ffffff;
   display: flex;
   text-align: start;

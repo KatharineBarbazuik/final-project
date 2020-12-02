@@ -1,13 +1,11 @@
 @import url(.//fonts.css);
 
-
-.body_hide{
+.body_hide {
   opacity: 0;
-  transition: .9s opacity ease-in-out;
-
+  transition: 0.9s opacity ease-in-out;
 }
 
-.body_visible{
+.body_visible {
   opacity: 1;
 }
 
@@ -21,9 +19,9 @@ header {
   z-index: 1000;
   width: 100%;
   top: 0;
-  @media screen and (max-width:768px){
+  @media screen and (max-width: 768px) {
     position: absolute;
-}
+  }
 }
 
 .wix {
@@ -36,13 +34,15 @@ header {
   border-bottom: 3px solid rgb(160, 19, 142);
 }
 
-.navformob{
+.navformob {
   display: none;
-  
-
 }
 
-.nav__toggle{
+#mobile_menu {
+  display: none;
+}
+
+.nav__toggle {
   display: none;
 }
 
@@ -75,7 +75,8 @@ header {
 .start_link:focus {
   color: #ffffff;
 }
-.nav, .navigation {
+.nav,
+.navigation {
   background-color: #ffffff;
   display: flex;
   text-align: start;
@@ -128,8 +129,8 @@ header {
 
 .socialbar {
   margin: 0;
-  .nav_list{
-    .nav_item{
+  .nav_list {
+    .nav_item {
       display: inline-flex;
       > a {
         line-height: 33px;
@@ -139,7 +140,6 @@ header {
     }
   }
 }
-
 
 footer {
   table {
@@ -151,34 +151,18 @@ footer {
     width: calc(100% - 100px);
     margin: 50px;
     flex-wrap: wrap;
-
-  //   @media screen and (max-width:768px){
-  //     text-align: center;
-  //     width: 100%;
-  //     border: none;
-  //     border-collapse: unset;
-  //     margin: 0 auto;
-  //     padding: 0;
-  // }
     th {
       padding: 50px;
       flex-wrap: wrap;
-  
-    //   @media screen and (max-width:768px){
-    //     display: inline;
-    //     margin:0;
-    // }
     }
   }
 }
 
-
-
 .bordercolor {
   border: 1px solid #ffffff;
-  @media screen and (max-width:768px){
+  @media screen and (max-width: 768px) {
     border: none;
-}
+  }
 }
 
 .font5 {
@@ -219,4 +203,3 @@ footer {
 .d-block {
   display: block !important;
 }
-

@@ -629,6 +629,10 @@ header {
   display: none;
 }
 
+#mobile_menu {
+  display: none;
+}
+
 .nav__toggle {
   display: none;
 }
@@ -664,7 +668,8 @@ header {
   color: #ffffff;
 }
 
-.nav, .navigation {
+.nav,
+.navigation {
   background-color: #ffffff;
   display: flex;
   text-align: start;
@@ -872,6 +877,11 @@ footer table th {
   font-size: 12px;
   padding: 5px;
 }
+@media screen and (max-width: 768px) {
+  .acc_info {
+    font-size: 16px;
+  }
+}
 
 .date_info {
   display: flex;
@@ -899,6 +909,11 @@ footer table th {
   letter-spacing: 0.05em;
   line-height: 1.5em;
 }
+@media screen and (max-width: 768px) {
+  .article_title {
+    font-size: 36px;
+  }
+}
 
 .article_title:hover {
   color: #e9c98c;
@@ -915,6 +930,11 @@ footer table th {
   margin: 0px 20px 20px 20px;
   max-width: 394px;
   color: #464646;
+}
+@media screen and (max-width: 768px) {
+  .article_text {
+    font-size: 22px;
+  }
 }
 
 .article_text:hover {
@@ -1469,6 +1489,7 @@ with any questions regarding Web Fonts:  http://webfonts.fonts.com
   }
 
   .mobile-menu {
+    display: inherit !important;
     width: 0%;
     height: 100vh;
     position: fixed;
@@ -1531,12 +1552,12 @@ with any questions regarding Web Fonts:  http://webfonts.fonts.com
   footer table tr:nth-child(1) th:nth-child(2) {
     padding: 20px;
     order: 1;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #fff;
   }
   footer table tr:nth-child(1) th:nth-child(3) {
     padding: 30px;
     order: 0;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #fff;
   }
   footer table tr:nth-child(1) th:nth-child(3) .follow {
     margin-bottom: 0;
@@ -1548,7 +1569,7 @@ with any questions regarding Web Fonts:  http://webfonts.fonts.com
   footer table tr:nth-child(2) th:nth-child(2) {
     padding: 20px;
     order: 0;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #fff;
   }
   footer table tr:nth-child(2) th:nth-child(3) {
     padding: 30px;

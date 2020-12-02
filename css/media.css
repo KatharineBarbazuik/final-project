@@ -70,6 +70,7 @@
   }
 
   .mobile-menu {
+    display: inherit !important;
     width: 0%;
     height: 100vh;
     position: fixed;
@@ -132,12 +133,12 @@
   footer table tr:nth-child(1) th:nth-child(2) {
     padding: 20px;
     order: 1;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #fff;
   }
   footer table tr:nth-child(1) th:nth-child(3) {
     padding: 30px;
     order: 0;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #fff;
   }
   footer table tr:nth-child(1) th:nth-child(3) .follow {
     margin-bottom: 0;
@@ -149,7 +150,7 @@
   footer table tr:nth-child(2) th:nth-child(2) {
     padding: 20px;
     order: 0;
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid #fff;
   }
   footer table tr:nth-child(2) th:nth-child(3) {
     padding: 30px;
