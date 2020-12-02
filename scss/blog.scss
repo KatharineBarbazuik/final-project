@@ -1,0 +1,148 @@
+.blog_wrapper {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 160px;
+    @media screen and (max-width:768px){
+        width: 100%;
+    }
+  }
+  
+  .blog_title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .blog_text {
+    color: rgb(70, 70, 70);
+  }
+
+  .articles-wrap{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 2190px;
+    width: 980px;
+    margin: 0 -20px;
+    @media screen and (max-width:768px){
+        width: 100%;
+        height :auto;
+        margin: 0;
+    }
+
+    .article {
+        border: 1px solid rgba(230, 230, 230, 0.75);
+        margin: 20px;
+        width: 48%;
+         @media screen and (max-width:768px){
+            width: 100%;
+            margin: 0;
+        }
+        .art_img{
+            width: 100%;
+        }
+      }
+  }
+  
+    .about {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .corona {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .account {
+    border-radius: 50%;
+    min-width: 32px;
+    height: 32px;
+  }
+  
+  .about_acc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 34px;
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  .acc_info {
+    display: flex;
+    min-width: 88px;
+    justify-content: left;
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  .date_info {
+    display: flex;
+    width: 88px;
+    justify-content: left;
+    padding: 5px;
+  }
+  
+  .middle_block {
+    margin: 0px 8px;
+    vertical-align: top;
+  }
+  
+  .pointer {
+    height: 30px;
+  }
+  
+  .article_title {
+    font-family: "FuturaLTW01-Medium";
+    font-size: 26px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    
+  }
+  
+  .article_title:hover {
+    color: rgb(233, 201, 140);
+  }
+  
+  .article_text {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    max-height: 72px;
+    margin: 0px 20px 20px 20px;
+    max-width: 394px;
+    color: rgb(70, 70, 70);
+  }
+  
+  .article_text:hover {
+    color: rgb(233, 201, 140);
+  }
+  
+  .blog_article {
+    border-bottom: 1px solid rgba(70, 70, 70, 0.2);
+    margin: 0px 0px 15px;
+  }
+  
+  .comment {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 20px;
+  }
+  
+  .write_comment {
+    color: #000000;
+  }
+  
+  .write_comment:hover {
+    color: rgb(233, 201, 140);
+  }
